@@ -254,7 +254,7 @@
   
   ###--------------------- Prepare Text for Right Panel ---------------------###
   
-  spaces <- function(x) paste(rep(" ", ifelse(!is.na(x), x, 0), collapse = ""))
+  spaces <- function(x) paste(rep(" ", ifelse(!is.na(x), x, 0)), collapse = "")
   
   itxt <- with(pars, {
     paste0("ASSAY:   ", aenm, "\n\n",
